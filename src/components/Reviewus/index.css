@@ -1,0 +1,94 @@
+
+
+.containers {
+    position: relative;
+    /* width: 90%;
+    max-width: 600px; */
+    text-align: center;
+    background: white;
+    padding: 20px 0;
+    bottom: -27px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0px;
+    overflow: hidden;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    z-index: 12;
+    box-shadow: 0 4px 6px 0 rgba(255, 255, 255, 0.3);
+  }
+
+  @media screen and (max-width: 768px) {
+    .containers {
+        bottom: 0;
+        padding: 0;
+    }
+  }
+  
+  .logo {
+    position: relative;
+    z-index: 2;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .logo .top {
+    color: #3370d4; /* Blue color */
+  }
+  
+  .logo .review {
+    color: #f58220; /* Orange color */
+  }
+  
+  .logo .expert {
+    display: block;
+    font-size: 16px;
+    color: #3c139b; /* Purple color */
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+  
+  .curve {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+  
+  .curve svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .title-wrapper {
+    position: relative;
+    z-index: 2;
+
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-top: -41px;
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+    
+    /* padding: 10px 0; */
+    /* bottom: -25px; */
+  }
+  .title{
+    box-shadow: 0 4px 6px 0 rgba(10, 10, 10, 0.3);
+    border-radius: 20px;
+    background-color: #7cabfe;
+    padding: 2px 15px;
+    max-width: 90%;
+  }
+  
+
+.review-us .ant-rate .ant-rate-star:not(:last-child) {
+    margin-inline-end: 14px !important;
+}

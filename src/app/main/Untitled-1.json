@@ -1,0 +1,54 @@
+{
+    "message": "Successfully fetched categories",
+    "status": true,
+    "entity": {
+        "carousels": [
+            {
+                "title": "Popular Products",
+                "data": [
+                    {
+                        "img": "https://example.com/image1.jpg",
+                        "name": "iPhone 13 Pro",
+                        "starRating": 4.5,
+                        "likes": 120,
+                        "votes": 50,
+                        "category": "Electronics",
+                        "url_slug": "iphone-13-pro"
+                    },
+                    {
+                        "img": "https://example.com/image2.jpg",
+                        "name": "Nike Air Max 270",
+                        "starRating": 4.2,
+                        "likes": 90,
+                        "votes": 40,
+                        "category": "Clothing",
+                        "url_slug": "nike-air-max-270"
+                    }
+                ]
+            },
+            {
+                "title": "Top Hospitals",
+                "data": [
+                    {
+                        "img": "https://example.com/hospital1.jpg",
+                        "name": "General Hospital",
+                        "starRating": 4.7,
+                        "likes": 230,
+                        "votes": 100,
+                        "category": "Hospital",
+                        "url_slug": "general-hospital"
+                    },
+                    {
+                        "img": "https://example.com/hospital2.jpg",
+                        "name": "Community Hospital",
+                        "starRating": 4.3,
+                        "likes": 180,
+                        "votes": 80,
+                        "category": "Hospital",
+                        "url_slug": "community-hospital"
+                    }
+                ]
+            }
+        ]
+    }
+}
